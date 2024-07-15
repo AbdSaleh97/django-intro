@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+<h1>
+    Welcome to the about page
+</h1>
+
+<section class="about-section">
+    <h2>Our Mission</h2>
+    <p>We aim to provide the best services and products to our customers. Our mission is to continuously improve and innovate to meet our clients' needs.</p>
+</section>
+<section class="team-section">
+    <h2>Meet Our Team</h2>
+    <div class="team-member">
+        <img src="https://th.bing.com/th/id/OIP.FrDO8DxH3uRTiBQfwOO2sQHaFS?w=234&h=180&c=7&r=0&o=5&pid=1.7" alt="Team Member 1">
+        <h3>John Doe</h3>
+        <p>CEO</p>
+    </div>
+    </div>
+</section>
+<section class="history-section">
+    <h2>Our History</h2>
+    <p>Founded in 2010, our company has grown from a small startup to a leading provider of innovative solutions. Over the years, we have expanded our services and built a reputation for excellence.</p>
+</section>
+
+{% endblock content %}
